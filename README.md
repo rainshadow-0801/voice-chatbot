@@ -14,13 +14,13 @@ This is a simple voice-enabled chatbot built with Python. It listens to your voi
 
 ---
 
-## 📦 Requirements
+## 🛠️ Technologies Used
 
 - Python 3.x
-- nltk
-- pyttsx3
-- SpeechRecognition
-- pyaudio
+- [nltk](https://www.nltk.org/)
+- [SpeechRecognition](https://pypi.org/project/SpeechRecognition/)
+- [pyttsx3](https://pypi.org/project/pyttsx3/)
+- [pyaudio](https://people.csail.mit.edu/hubert/pyaudio/)
 
 ---
 
@@ -30,4 +30,17 @@ This is a simple voice-enabled chatbot built with Python. It listens to your voi
 
 ```bash
 pip install -r requirements.txt
+```
+
+### If pyaudio fails:
+
+```bash
+pip install pipwin
+pipwin install pyaudio
+```
+
+## Run the chatbot
+
+```bash
+python voice_chatbot.py
 ```
