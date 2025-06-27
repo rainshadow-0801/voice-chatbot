@@ -32,14 +32,14 @@ This is a simple voice-enabled chatbot built with Python. It listens to your voi
 pip install -r requirements.txt
 ```
 
-### If pyaudio fails:
+### 2. If pyaudio fails:
 
 ```bash
 pip install pipwin
 pipwin install pyaudio
 ```
 
-## Run the chatbot
+### 3. Run the chatbot
 
 ```bash
 python voice_chatbot.py
